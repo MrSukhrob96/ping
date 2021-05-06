@@ -1,0 +1,14 @@
+{
+    "name": "admin/sms",
+    "authors": [{
+        "name": "MrSukhrob",
+        "email": "sukhrobazimov1996@gmail.com"
+    }],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "api/"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "MSSQL": {
+        "dbHost": "ADMIN-PC\\SERVER",
+        "dbName": "SMS_Matin",
+        "dbUser": "SMPP",
+        "dbPass": ""
+    }
+}

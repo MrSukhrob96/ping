@@ -1,0 +1,57 @@
+        @import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+        * {
+            margin: 0;
+            padding: 0;
+			
+        }
+
+        body {
+            height: 100vh;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Montserrat, sans-serif;
+            text-align: center;
+        }
+
+        #clock {
+            color: #0ff;
+            text-shadow: 0 0 4px #0ff;
+            opacity: 0.9;
+        }
+
+        #date {
+            font-size: 2.6em;
+        }
+
+        ul {
+            list-style: none;
+            font-size: 4em;
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        #point {
+            animation: move 1s linear infinite;
+        }
+
+        @keyframes move {
+            0% {
+                opacity: 1;
+                text-shadow: 0 0 20px #0ff;
+            }
+
+            50% {
+                opacity: 0;
+                text-shadow: none;
+            }
+
+            100% {
+                opacity: 1;
+                text-shadow: 0 0 20px #0ff;
+            }
+        }
